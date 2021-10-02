@@ -8,8 +8,8 @@ function App() {
   return (
    <BrowserRouter>
    <Switch>
+   <Route path="/" component={Home} exact  />
      <Route path="/Portafolio" component={Portafolio} exact/>
-     <Route path="/" component={Home} exact/>
      <Route>
        <Error404 />
      </Route>
